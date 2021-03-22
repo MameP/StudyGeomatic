@@ -1,0 +1,104 @@
+*{
+	padding:0;
+	margin:0;
+	text-decoration: none;
+	font-family:cursive;
+	list-style:none;
+}
+.navbar{
+	background-color:dodgerblue;
+	width:100%;
+	position:fixed;
+	padding:25px 0px;
+
+}
+.navbar .max-width{
+	display: flex;
+	justify-content: space-between;
+
+}
+.logo a {
+	color:white;
+	font-weight:400;
+	font-size: 40px;
+}
+.logo a span{
+	color:midnightblue;
+}
+.menu{
+	padding-right:20px;
+}
+.menu li{
+	display:inline-block;
+	padding-top: 10px;
+}
+.menu li a{
+	color:white;
+	font-size: 20px;
+	font-weight:200px ;
+	margin-left:25px;
+	transition: color 2s;
+}
+.menu li a:hover{
+	color:midnightblue;
+}
+/*Fin Barre de Navigation*/
+.image{
+	background-image:url('annie-spratt-AFB6S2kibuk-unsplash.jpg');
+	background-size:cover;
+	height:800px;
+	display:flex;
+	justify-content: space-around;
+	object-fit: cover;
+}
+.image .text{
+	font-size:60px;
+	color:dodgerblue;
+	padding:200px 100px;
+}
+/*Fin de la Premiere Section*/
+.ID h1{
+	color:midnightblue;
+	text-align: center;
+	text-decoration: underline;
+	font-size:30px;
+	font-weight: 600;
+}
+.both{
+	display:flex;
+	justify-content: space-between;
+	width:100%;
+}
+.ID .both .monlogo{
+	width:50%;
+	padding-left: 150px;
+}
+.ID .both .monlogo img{
+	height:500px;
+	width:500px;
+	border-radius: 6px;
+	object-fit: cover;
+}
+
+.ID .both .textee{
+	width:50%;
+	font-size: 23px;
+	font-weight:400;
+	color:dodgerblue;
+	padding-left: 20px;
+}
+
+
+
+/*Fin de la Deuxieme Section*/
+.contact 
+{
+	background-color:dodgerblue;
+	width:100%;
+	color:midnightblue;
+	text-align: center;
+}
+.contact .reseau p{
+	font-size:20px;
+	font-family: 'Exo', sans-serif;
+}

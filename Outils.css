@@ -1,0 +1,85 @@
+*{
+	padding:0;
+	margin:0;
+	text-decoration: none;
+	font-family:cursive;
+	list-style:none;
+}
+.aviis{
+	/*background-image:url('annie-spratt-65WlDq9rf80-unsplash.jpg');
+	background-size:cover;*/
+	background-color: aliceblue;
+}
+.navbar{
+	background-color:dodgerblue;
+	width:100%;
+	position:fixed;
+	padding:25px 0px;
+
+}
+.navbar .max-width{
+	display: flex;
+	justify-content: space-between;
+
+}
+.logo a {
+	color:white;
+	font-weight:400;
+	font-size: 40px;
+}
+.logo a span{
+	color:black;
+}
+.menu{
+	padding-right:20px;
+}
+.menu li{
+	display:inline-block;
+	padding-top: 10px;
+}
+.menu li a{
+	color:white;
+	font-size: 20px;
+	font-weight:200px ;
+	margin-left:25px;
+	transition: color 2s;
+}
+.menu li a:hover{
+	color:black;
+}
+
+
+/*Fin Barre de Navigation*/
+.last{
+	display:flex;
+	justify-content: space-between;
+	width:100%;
+}
+.tools{
+	font-size:20px;
+	color:navy;
+	width:50%;
+}
+.imagee{
+	padding-left: 50px;
+	padding-bottom:30px;
+	padding-top: 40px;
+}
+.autocad{
+	width:550px;
+	box-shadow: 5px 5px 10px blue;
+}
+.arcgis{
+	box-shadow: 5px 5px 10px blue;
+}
+.contact 
+{
+	background-color:dodgerblue;
+	width:100%;
+	color:midnightblue;
+	text-align: center;
+}
+.contact .reseau p{
+	font-size:20px;
+	font-family: 'Exo', sans-serif;
+}
