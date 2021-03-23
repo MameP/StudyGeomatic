@@ -144,6 +144,44 @@ span{
 	color:dodgerblue;
 	margin-top:70px;
 }
+h1{
+	color:midnightblue;
+	text-align:center;
+	font-size:40px;
+}
+
+.fille {
+	text-align: center;
+	font-size: 15px;
+	width:900px;
+	height:350px;
+	display:flex;
+	justify-content: space-between;
+	border:2px solid white;
+	padding-left:200px;
+	position: center;
+	line-height: 30px;
+
+}
+.fille .d1{
+	border-radius: 5px;
+	border:5px solid midnightblue;
+	background-color:midnightblue;
+	width:250px;
+	padding-top: 8px;
+	color:dodgerblue;
+}
+.fille div p{
+	font-size: 25px;
+}	
+.fille div .pf{
+	font-size: 30px;
+}
+.d1 img{
+	width:100px;
+	height:100px;
+
+}	
 
 .contact 
 {

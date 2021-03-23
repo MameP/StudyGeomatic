@@ -48,52 +48,41 @@
 
 
 /*Fin Barre de Navigation*/
-.last{
+h1{
+	color:midnightblue;
+	text-align:center;
+	font-size:40px;
+}
+
+.fille {
+	text-align: center;
+	font-size: 15px;
+	width:900px;
+	height:350px;
 	display:flex;
 	justify-content: space-between;
-	width:100%;
-}
-.tools{
-	font-size:20px;
-	color:navy;
-	width:50%;
-}
-.imagee{
-	padding-left: 50px;
-	padding-bottom:30px;
-	padding-top: 40px;
-}
-.autocad{
-	width:550px;
-	box-shadow: 5px 5px 10px blue;
-}
-.arcgis{
-	box-shadow: 5px 5px 10px blue;
-}
-.station{
-	width:550px;
-	box-shadow: 5px 5px 10px blue;
-	height:550px;
+	border:2px solid white;
+	padding-left:200px;
+	position: center;
+	line-height: 30px;
 
 }
-pre{
-	text-align:center;
-	color:midnightblue;
-	font-family: 'Exo', sans-serif;
-	font-size:20px;
-	font-weight:bolder;
-	text-decoration:underline ;
+.fille .d1{
+	border-radius: 5px;
+	border:5px solid midnightblue;
+	background-color:midnightblue;
+	width:250px;
+	padding-top: 8px;
+	color:dodgerblue;
+}
+.fille div p{
+	font-size: 25px;
+}	
+.fille div .pf{
+	font-size: 30px;
+}
+.d1 img{
+	width:100px;
+	height:100px;
 
-
-}
-.contact 
-{
-	background-color:dodgerblue;
-	width:100%;
-	color:midnightblue;
-	text-align: center;
-}
-.contact .reseau p{
-	font-size:20px;
-	font-family: 'Exo', sans-serif;
-}
+}	
